@@ -1,0 +1,84 @@
+.cardCreatePost {
+  max-width: 680px;
+  min-width: 680px;
+  padding: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  margin: 10px;
+  min-height: 200px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+.cardCreatePost h2 {
+  font-size: 20px;
+  margin: 10px 0px 25px 10px;
+}
+
+/* Contenu du CardCreatePost */
+.cardCreatePost-content {
+  display: flex;
+  align-items: center;
+  margin-left:10px;
+}
+.cardCreatePost-photoUser {
+  width: 75px;
+}
+
+.cardCreatePost-contentBtnPhoto {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+.cardCreatePost-btnPhoto {
+  display: flex;
+  align-items: center;
+  width: 130px;
+  height: 40px;
+  margin-right:20px;
+  padding-left: 10px;
+  border-radius: 15px;
+  border-width: 0px;
+  border-color: #4E5166;
+  cursor: pointer;
+  font-size: 16px;
+}
+.cardCreatePost-btnPhoto:hover {
+  background-color: rgba(78, 81, 102, .2);
+}
+.cardCreatePost-icoPhoto {
+  margin: 0px 28px 0px 0px ;
+  width: 22px;
+}
+
+/* @MediaQueries */
+/* Au dessus de 500 pixels et en dessous de 700 */
+@media (min-width: 500px) and (max-width: 700px){
+  .cardCreatePost {
+    min-width: 550px;
+  }
+}
+
+/* Au dessus de 500 pixels et en dessous de 580 */
+@media (min-width: 500px) and (max-width: 580px){
+  .cardCreatePost {
+    min-width: 450px;
+  }
+}
+
+/* Au dessus de 500 pixels et en dessous de 580 */
+@media (min-width: 390px) and (max-width: 500px){
+  .cardCreatePost {
+    min-width: 370px;
+  }
+}
+
+/* @MediaQueries */
+/* En dessous de 500 pixels */
+@media screen and (max-width: 390px) {
+  .cardCreatePost {
+    /* Supporter Samsung Galaxy S8 (360 de largeur) */
+    min-width: 340px;
+  }
+}

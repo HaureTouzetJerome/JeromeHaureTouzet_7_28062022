@@ -1,0 +1,53 @@
+.addPost-title {
+  font-size: 27px;
+  margin: 100px 0 5px;
+  margin-left: 38px;
+}
+
+/* Gérer la disposition et la taille du card*/
+.addPost-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto 0;
+}
+
+.addPost-formAddPost {
+  /* max-width: 680px;
+  min-width: 680px; */
+  width:55%;
+  margin-top:50px;
+  padding: 10px;
+  min-height: 200px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+  border-radius: 8px;
+}
+
+.addPost-submitPost {
+  margin: 10px;
+  padding: 12px 20px;
+  padding: 10px 15px;
+  background-color: #d3450d;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size:18px;
+}
+
+.addPost-submitPost:focus,
+.addPost-submitPost:hover {
+  background-color: #FD2D01;
+}
+
+.addPost-submitPost:disabled {
+  opacity: .3;
+  cursor: not-allowed;
+}

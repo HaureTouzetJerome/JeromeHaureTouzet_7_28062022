@@ -1,0 +1,54 @@
+.input-title {
+  height: 40px;
+  margin: 10px;
+  padding: 12px 20px;
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  outline: none;
+  font-size: 18px;
+  font-family: inherit;
+}
+
+.input-description {
+  height: 200px;
+  margin: 10px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  outline: none;
+  font-size: 18px;
+  font-family: inherit;
+}
+
+.input-image {
+  height: 350px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-size: 16px;
+  font-size: 18px;
+  font-family: inherit;
+  background-image: url("../../../images/icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+span {
+  margin: 5px 15px;
+  color:crimson
+}
+
+.input-file {
+  margin: 10px;
+  padding: 12px 20px;
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}

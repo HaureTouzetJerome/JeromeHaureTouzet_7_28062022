@@ -1,0 +1,26 @@
+.home-title {
+  font-size: 27px;
+  margin: 100px 0 5px;
+  margin-left: 38px;
+}
+
+/* Gérer la disposition et la taille des cards */
+.home-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto 0;
+}
+
+/* @MediaQueries */
+/* En dessous de 500 pixels */
+@media screen and (max-width: 390px) {
+  .home-cards {
+    /* Supporter Samsung Galaxy S8 (360 de largeur) */
+    max-width: 360px;
+    min-width: 360px;
+  }
+}

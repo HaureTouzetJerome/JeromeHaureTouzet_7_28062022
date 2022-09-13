@@ -1,0 +1,105 @@
+.cardPost {
+  max-width: 680px;
+  min-width: 680px;
+  padding: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  margin: 10px;
+  min-height: 200px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+.cardPost h2 {
+  font-size: 20px;
+  margin: 10px;
+}
+.cardPost p {
+  font-size: 18px;
+}
+
+.cardPost-title {
+  border-radius: 2px;
+  background-color: rgb(255,215,215,0.44);
+  width: 100%;
+}
+.cardPost-description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.cardPost-photoPost {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+
+.cardPost-contentLike{
+  display: flex;
+}
+.cardPost-contentLike p{
+  font-size: 20px;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.footerCard{
+  display: flex;
+  width: 100%;
+  height:40px;
+}
+.cardPost-like{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.btnContainer{
+  margin-left: auto;
+}
+.btnCard{
+  width: 130px;
+  height: 40px;
+  margin-left:15px;
+  border-radius: 15px;
+  border-width: 0px;
+  border-color: #4E5166;
+  cursor: pointer;
+  font-size: 16px;
+}
+.btnCard:hover {
+  background-color: rgba(78, 81, 102, .2);
+}
+
+
+/* @MediaQueries */
+/* Au dessus de 580 pixels et en dessous de 700 */
+@media (min-width: 580px) and (max-width: 700px){
+  .cardPost {
+    min-width: 550px;
+  }
+}
+
+/* Au dessus de 500 pixels et en dessous de 580 */
+@media (min-width: 500px) and (max-width: 580px){
+  .cardPost {
+    min-width: 450px;
+  }
+}
+
+/* Au dessus de 500 pixels et en dessous de 580 */
+@media (min-width: 390px) and (max-width: 500px){
+  .cardPost {
+    min-width: 370px;
+  }
+}
+
+/* @MediaQueries */
+/* En dessous de 500 pixels */
+@media screen and (max-width: 390px) {
+  .cardPost {
+    /* Supporter Samsung Galaxy S8 (360 de largeur) */
+    min-width: 340px;
+  }
+}
